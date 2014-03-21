@@ -1,0 +1,27 @@
+{
+  "name"             : "mongod-run",
+  "version"          : "0.1.0",
+  "description"      : "Runs mongod. Useful when testing APIs.",
+  "main"             : "mongod.run.js",
+  "repository"       : {
+  "type"             : "git",
+  "url"              : "git://github.com/gtramontina/mongod-run.git"
+  },
+  "keywords"         : [
+    "mongodb",
+    "mongod",
+    "run",
+    "test"
+  ],
+  "author"           : "Guilherme Tramontina <guilherme.tramontina@gmail.com>",
+  "license"          : "unlicense",
+  "bugs"             : {
+  "url"              : "https://github.com/gtramontina/mongod-run/issues"
+  },
+  "homepage"         : "https://github.com/gtramontina/mongod-run",
+  "dependencies"     : {
+  "temp"             : "^0.7.0",
+  "database-cleaner" : "^0.7.0",
+  "shelljs"          : "^0.2.6"
+  }
+}
