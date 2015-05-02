@@ -14,7 +14,7 @@
     "test"
   ],
   "author"           : "Guilherme Tramontina <guilherme.tramontina@gmail.com>",
-  "license"          : "unlicense",
+  "license"          : "Unlicense",
   "bugs"             : {
   "url"              : "https://github.com/gtramontina/mongod-run/issues"
   },
