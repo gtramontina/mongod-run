@@ -1,11 +1,11 @@
 {
   "name": "mongod-run",
   "version": "0.1.0",
-  "description": "Runs mongod. Useful when testing APIs.",
+  "description": "Runs mongod. Useful when testing APIs. Forked from git://github.com/gtramontina/mongod-run.git",
   "main": "mongod.run.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gtramontina/mongod-run.git"
+    "url": "git://github.com/bodylabs/mongod-run.git"
   },
   "keywords": [
     "mongodb",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/gtramontina/mongod-run",
   "dependencies": {
     "temp": "^0.7.0",
-    "database-cleaner": "^0.7.0",
+    "database-cleaner": "~1.1.0",
     "shelljs": "^0.2.6"
   }
 }
