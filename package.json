@@ -23,5 +23,8 @@
     "temp": "^0.7.0",
     "database-cleaner": "~1.1.0",
     "shelljs": "^0.2.6"
+  },
+  "peerDependencies": {
+    "mongoose": "^4.4.12"
   }
 }
