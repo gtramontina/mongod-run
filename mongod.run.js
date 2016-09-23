@@ -49,5 +49,4 @@ exports.stop = function () {
   temp.cleanup();
 };
 
-exports.cleanup = require('./db.cleaner');
 process.on('exit', exports.stop);
