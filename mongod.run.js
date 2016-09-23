@@ -26,7 +26,7 @@ function run () {
     checkRunning = noop;
     notifyListeners();
   };
-  mongod = s.exec('mongod -f . --dbpath='+tmp()+' --rest', { async: true, silent: true });
+  mongod = s.exec('mongod --dbpath='+tmp()+' --rest', { async: true, silent: true });
   mongod.stdout.on('data', checkRunning);
 }
 
@@ -49,5 +49,4 @@ exports.stop = function () {
   temp.cleanup();
 };
 
-exports.cleanup = require('./db.cleaner');
 process.on('exit', exports.stop);
