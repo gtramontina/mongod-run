@@ -5,7 +5,7 @@ Runs mongod. Useful when testing APIs.
 When running tests for APIs that are backed by a database, we usually either have the DB up as a service somewhere or do this extra step of bringing it up before running the tests. I didn't want to do any of these, so I wrote `mongod-run`.
 
 ## Example
-___Note___: _I focused mainly on getting it working with [mocha](http://visionmedia.github.io/mocha/), as this is what I've been testing with._
+___Note___: _I focused mainly on getting it working with [mocha](http://mochajs.org/), as this is what I've been testing with._
 
 ```javascript
 var mongod = require('mongod-run');
